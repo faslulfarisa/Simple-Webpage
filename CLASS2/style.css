@@ -13,7 +13,7 @@
     width:50px;
 }
 body{
-    background-color: #707070;
+    background-image: ;
 }
 header{
     display:grid;
@@ -38,6 +38,7 @@ header{
 main{
     background-color: #fff;
     padding: 15px 0;
+    border-radius: 50px;
 }
 h1{
     background-color: #f04f4f;
@@ -52,6 +53,7 @@ marquee{
     background-color: #f3f5c5;
     color: #FF0000;
     border:1px solid #707070;
+    border-top: 1px solid #707070;
     margin:20px 0;
     padding: 5px 0;
 }
@@ -72,9 +74,36 @@ marquee{
 .department_card_main_section{
     background-color: #EECCCC;
     border: 1px solid #707070;
+    padding: 10px;
     margin:20px 10px;
 }
 .department_card_image img{
-    width:100%
-
+    width:100%;
+    border-radius: 50px;
+    border: 1px solid #707070;
+}
+.department_card_sub_section{
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.enroll_button{
+    padding: 8px 15px;
+    background-color: #7fb80d;
+    color: #fff;
+    border-radius: 20px;
+    margin-top: 10px;
+    border:1px solid #707070;
+}
+footer{
+    margin-top: 30px;
+    background-color: #3D4F68;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.footer_link_section{
+    font-size: 20px;
+    margin-bottom: 10px;
 }
