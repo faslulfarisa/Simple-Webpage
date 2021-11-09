@@ -13,7 +13,9 @@
     width:50px;
 }
 body{
-    background-image: ;
+    background-image:url(./thisisengineering-raeng-uyfohHiTxho-unsplash-1024x683.png) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 header{
     display:grid;
@@ -106,4 +108,16 @@ footer{
 .footer_link_section{
     font-size: 20px;
     margin-bottom: 10px;
+}
+@media screen and (max-width:1000px) {
+    .main_section_container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
+@media screen and (max-width:500px) {
+    .main_section_container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
 }
