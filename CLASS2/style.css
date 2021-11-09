@@ -1,6 +1,52 @@
 *{
-    margin:0
+    margin:0;
+    box-sizing :border-box;
+}
+.logo{
+    background-color:#fff;
+    padding: 10px;
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
 }
 .logo img{
     width:50px;
+}
+body{
+    background-color: #707070;
+}
+header{
+    display:grid;
+    grid-template-columns: auto 1fr;
+    gap:30px;
+    align-items: center;
+    padding: 20px 0;
+}
+.search_bar input{
+    width:100%;
+    padding:15px;
+    border-radius: 40px;
+    border: solid 1px #707070;
+}
+.department_card_image img{
+    width:250px;
+}
+.main_container{
+    padding: 0 15px;
+    max-width: 1024px;
+    margin: auto;
+
+}
+main{
+    background-color: #fff;
+    padding: 15px 0;
+}
+h1{
+    background-color: #f04f4f;
+    margin: auto;
+    width: fit-content;
+    padding: 10px 25px;
+    color:#fff;
+    border-radius: 40px;
+
 }
