@@ -28,9 +28,7 @@ header{
     border-radius: 40px;
     border: solid 1px #707070;
 }
-.department_card_image img{
-    width:250px;
-}
+
 .main_container{
     padding: 0 15px;
     max-width: 1024px;
@@ -48,5 +46,35 @@ h1{
     padding: 10px 25px;
     color:#fff;
     border-radius: 40px;
+
+}
+marquee{
+    background-color: #f3f5c5;
+    color: #FF0000;
+    border:1px solid #707070;
+    margin:20px 0;
+    padding: 5px 0;
+}
+.main_section_container{
+    display: grid;
+    grid-template-columns:repeat(4,1fr) ;
+    gap:15px;
+    padding: 20px;
+}
+.department_title{
+    background-color:#3D4F68 ;
+    color: #fff;
+    padding: 10px;
+    font-size: 24px;
+    text-align:center ;
+    border-radius:15px 35px ;
+}
+.department_card_main_section{
+    background-color: #EECCCC;
+    border: 1px solid #707070;
+    margin:20px 10px;
+}
+.department_card_image img{
+    width:100%
 
 }
