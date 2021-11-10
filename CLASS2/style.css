@@ -9,9 +9,7 @@
     height: 70px;
     border-radius: 50%;
 }
-.logo img{
-    width:50px;
-}
+
 body{
     background-image:url(./thisisengineering-raeng-uyfohHiTxho-unsplash-1024x683.png) ;
     background-size: 100%;
@@ -49,6 +47,7 @@ h1{
     padding: 10px 25px;
     color:#fff;
     border-radius: 40px;
+    
 
 }
 marquee{
@@ -118,6 +117,21 @@ footer{
 @media screen and (max-width:500px) {
     .main_section_container{
         grid-template-columns: repeat(1,1fr);
+    }   
+}
+@media screen and (max-width:360px) {
+    header{
+        gap:10px;
+    }
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .search_bar input{
+        padding: 10px;
     }
     
 }
